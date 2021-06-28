@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    overflow: hidden;
+    height:100vh;
+}
+
+.taskbar{
+    position:absolute;
+    bottom:0;
+    display: flex;
+    width:100%;
+    z-index:110;
+    justify-content: center;
+    background-color: #efd9da;
+    
+}
+
+.rightIcon{
+    position:absolute;
+    right:0px;
+    height:90%;
+    
+}
+
+.startmenu{
+    position:absolute;
+    bottom:-650px;
+    width:100%;
+    text-align: center;
+}
+.startmenu img{
+    border-radius: 10px;
+}
+
+
+
+#myVideo{
+    height:100vh;
+    width:100%;
+    z-index:10;
+    object-fit: contain;
+    background:#8cb1ce;
+}
